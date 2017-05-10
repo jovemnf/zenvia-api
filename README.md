@@ -8,8 +8,27 @@ Um módulo para envio de SMS com a empresa Zenvia
     
 ## Usage
 
-### Example
+### Exemplo de Envio de SMS
 
+```js
+
+let zenvia = require("zenvia-api").send_sms;
+
+
+let body = {
+        "from": "Remetente",
+        "to": "5522998430601",
+        "msg": "Mensagem de teste",
+        "callbackOption": "NONE",
+        "id": "003",
+        "aggregateId": "1111"
+    };
+
+zenvia('conta','senha', body)
+	.then((response) => console.log(response))
+	.catch((err) => console.log(err));
+
+```
 
 ## License
 
