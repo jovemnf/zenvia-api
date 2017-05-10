@@ -8,7 +8,7 @@ Um módulo para envio de SMS com a empresa Zenvia
     
 ## Usage
 
-### Exemplo de Envio de SMS
+### Envio de SMS
 
 ```js
 
@@ -59,7 +59,7 @@ No caso de erro em algum dado retornará o json abaixo
 
 ```
 
-### Exemplo de consulta de status
+### Consulta de status
 
 ```js
 
@@ -88,7 +88,7 @@ zenvia('conta','senha', 1)
 }
 ```
 
-### Exemplo listagem re retornos de sms
+### Buscando retornos de SMS
 
 ```js
 
