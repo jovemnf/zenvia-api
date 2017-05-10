@@ -6,7 +6,7 @@ Um módulo para envio de SMS com a empresa Zenvia
 
     npm install zenvia-api --save
     
-## Usage
+## Como usar
 
 ### Envio de SMS
 
