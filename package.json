@@ -1,0 +1,26 @@
+{
+  "name": "zenvia-api",
+  "version": "0.0.1",
+  "description": "aplicação de conexao com a zenvia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovemnf/zenvia-api.git"
+  },
+  "keywords": [
+    "zenvia",
+    "sms"
+  ],
+  "author": "wallace silva <wsilvasjb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jovemnf/zenvia-api/issues"
+  },
+  "homepage": "https://github.com/jovemnf/zenvia-api#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
