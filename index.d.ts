@@ -1,4 +1,4 @@
-declare module "centeralarm-auth" {
+declare module "zenvia-api" {
     export function sendOne(conta: string, senha: string, body: object): Promise<object>;
     export function getStatus(conta: string, senha: string, id: any): Promise<object>;
     export function list(conta: string, senha: string): Promise<IReceivedResponse>;
