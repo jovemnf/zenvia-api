@@ -1,6 +1,6 @@
 declare module "zenvia-api" {
-    export function sendOne(conta: string, senha: string, body: object): Promise<object>;
-    export function getStatus(conta: string, senha: string, id: any): Promise<object>;
+    export function sendOne(conta: string, senha: string, body: object): Promise<ISendResponse>;
+    export function getStatus(conta: string, senha: string, id: any): Promise<ISmsStatus>;
     export function list(conta: string, senha: string): Promise<IReceivedResponse>;
 }
 
@@ -31,4 +31,18 @@ declare interface IReceivedResponse {
         "detailDescription": string;
         "receivedMessages": IReceivedMessages[] | null;
     }
+}
+
+declare interface ISmsStatus {
+    getSmsStatusResp:
+        {
+            id: string;
+            received: string|null;
+            shortcode: string|null;
+            mobileOperatorName: string|null;
+            statusCode: string;
+            statusDescription: string;
+            detailCode: string;
+            detailDescription: string;
+        }
 }
