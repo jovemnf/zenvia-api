@@ -59,6 +59,19 @@ No caso de erro em algum dado retornará o json abaixo
 
 ```
 
+Caso a conta ou a senha estejam errados a seguinte mensagem será retornada
+
+```json
+{
+    "sendSmsResponse": {
+        "statusCode": "10",
+        "statusDescription": "Nok",
+        "detailCode": "900",
+        "detailDescription": "Authentication error"
+    }
+}
+```
+
 ### Consulta de status
 
 ```js
