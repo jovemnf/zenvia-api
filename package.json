@@ -1,6 +1,6 @@
 {
   "name": "zenvia-api",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "aplicação de conexao com a zenvia",
   "main": "index.js",
   "scripts": {
