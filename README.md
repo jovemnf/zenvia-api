@@ -5,7 +5,7 @@ Um módulo para envio de SMS com a empresa Zenvia
 ## Install
 
     npm install zenvia-api --save
-    
+
 ## Como usar
 
 ### Envio de SMS
@@ -30,7 +30,7 @@ zenvia('conta','senha', body)
 
 ```
 
-#### Respostas 
+#### Respostas
 
 No caso de sucesso retornará um json como abaixo.
 

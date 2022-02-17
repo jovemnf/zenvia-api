@@ -1,5 +1,5 @@
 declare module "zenvia-api" {
-    export function sendOne(conta: string, senha: string, body: object): Promise<ISendResponse>;
+    export function sendOne(conta: string, senha: string, body: object, log: boolean): Promise<ISendResponse>;
     export function getStatus(conta: string, senha: string, id: any): Promise<ISmsStatus>;
     export function list(conta: string, senha: string): Promise<IReceivedResponse>;
 }
