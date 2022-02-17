@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/jovemnf/zenvia-api#readme",
   "dependencies": {
-    "request": "2.88.0"
+    "request": "2.88.2"
   }
 }
